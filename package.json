@@ -1,6 +1,6 @@
 {
   "name": "joi-postcode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Postcode validation via regex for Joi",
   "main": "index.js",
   "scripts": {
