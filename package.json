@@ -1,0 +1,38 @@
+{
+  "name": "joi-postcode",
+  "version": "0.0.0",
+  "description": "Postcode validation via regex for Joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "postcode",
+    "zipcode",
+    "postal",
+    "post",
+    "code",
+    "validate",
+    "validation",
+    "joi"
+  ],
+  "author": "Alan Shaw",
+  "license": "ISC",
+  "peerDependencies": {
+    "joi": "^7.2.3"
+  },
+  "devDependencies": {
+    "standard": "^6.0.4"
+  },
+  "dependencies": {
+    "joi": "^7.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanshaw/joi-postcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/joi-postcode/issues"
+  },
+  "homepage": "https://github.com/alanshaw/joi-postcode#readme"
+}
