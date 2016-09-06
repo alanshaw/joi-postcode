@@ -7,8 +7,7 @@ This is a regex based validation taken from the excellent [postcode.js](https://
 ## Usage
 
 ```js
-var Joi = require('joi')
-Joi.postcode = require('joi-postcode')
+var Joi = require('joi').extend(require('joi-postcode'))
 
 Joi.postcode().validate('WC2N 4HG', function (err) {
   console.log(err ? 'Invalid' : 'Valid')

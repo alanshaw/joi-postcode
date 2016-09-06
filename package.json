@@ -4,7 +4,7 @@
   "description": "Postcode validation via regex for Joi",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard && istanbul cover tape test.js"
   },
   "keywords": [
     "postcode",
@@ -14,15 +14,19 @@
     "code",
     "validate",
     "validation",
-    "joi"
+    "joi",
+    "extension"
   ],
   "author": "Alan Shaw",
   "license": "ISC",
   "peerDependencies": {
-    "joi": "^8.0.1"
+    "joi": "^9"
   },
   "devDependencies": {
-    "standard": "^6.0.4"
+    "istanbul": "^0.4.5",
+    "joi": "^9.0.4",
+    "standard": "^8.0.0",
+    "tape": "^4.6.0"
   },
   "repository": {
     "type": "git",
